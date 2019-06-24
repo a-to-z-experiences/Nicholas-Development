@@ -72,7 +72,7 @@ header .header-flex nav button i {
   line-height: 5rem;
   letter-spacing: 0.5rem;
 }
-.hero-img .container .content button {
+.hero-img .container .content a {
   background: rgba(50, 205, 50, 0.678);
   border: none;
   border-radius: 3rem;
@@ -80,8 +80,9 @@ header .header-flex nav button i {
   font-size: 1.8rem;
   color: #fff;
   font-weight: 100;
+  text-decoration: none;
 }
-.hero-img .container .content button:hover {
+.hero-img .container .content a:hover {
   cursor: pointer;
 }
 footer {
