@@ -32,6 +32,20 @@ header .header-flex nav a {
   text-decoration: none;
   color: #fff;
 }
+header .header-flex nav button {
+  background: rgba(50, 205, 50, 0.767);
+  border: none;
+  border-radius: 50%;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+header .header-flex nav button:hover {
+  cursor: pointer;
+}
+header .header-flex nav button i {
+  color: #f7f7f7;
+  font-size: 1.5rem;
+}
 .hero-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img//heroImg.jpg);
   background-size: cover;
@@ -66,4 +80,66 @@ header .header-flex nav a {
   font-size: 1.8rem;
   color: #fff;
   font-weight: 100;
+}
+.hero-img .container .content button:hover {
+  cursor: pointer;
+}
+footer {
+  height: 300px;
+  background-color: #212121;
+  color: #f4f4f4;
+}
+footer .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+footer .flex {
+  display: flex;
+  justify-content: space-between;
+}
+footer .flex .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40rem;
+  margin-right: 3rem;
+  height: 300px;
+}
+footer .flex .footer-content h4 {
+  text-align: center;
+  font-size: 1.6rem;
+}
+footer .flex .footer-content p {
+  font-size: 1.4rem;
+  font-weight: 100;
+  line-height: 2.3rem;
+}
+footer .flex .footer-content button {
+  background-color: rgba(50, 205, 50, 0.678);
+  border: none;
+  padding: 1.3rem 1.9rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+footer .flex .footer-content .icons {
+  display: flex;
+  list-style-type: none;
+  font-size: 3rem;
+}
+footer .flex .footer-content .icons .fab {
+  padding: 2rem;
+}
+aside {
+  height: 50px;
+  background: black;
+}
+aside p {
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  font-style: italic;
+  padding-top: 2rem;
 }
