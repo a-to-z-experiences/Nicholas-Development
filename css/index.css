@@ -57,6 +57,7 @@ header .header-flex nav .fas {
   border-radius: 50%;
   padding: 1rem;
   margin-right: 1rem;
+  color: black;
 }
 header .header-flex nav .fas:hover {
   cursor: pointer;
