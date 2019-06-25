@@ -2,6 +2,12 @@ footer {
   height: 300px;
   background-color: #212121;
   color: #f4f4f4;
+  @media @tablet {
+    display: none;
+  }
+  @media @lg-tablet {
+    display: none;
+  }
   .container {
     width: 1200px;
     margin: 0 auto;
@@ -9,6 +15,7 @@ footer {
   .flex {
     display: flex;
     justify-content: space-between;
+
     .footer-content {
       display: flex;
       flex-direction: column;
@@ -16,6 +23,12 @@ footer {
       justify-content: center;
       width: 40rem;
       margin-right: 3rem;
+      @media @tablet {
+        display: none;
+      }
+      @media @lg-tablet {
+        display: none;
+      }
       h4 {
         text-align: center;
         font-size: 1.6rem;

@@ -2,11 +2,26 @@ header {
   .container {
     width: 1200px;
     margin: 0 auto;
+    @media @tablet {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    @media @mobile {
+      max-width: 450px;
+      margin: 0 auto;
+    }
+    // @media @lg-tablet {
+    //   max-width: 900px;
+    //   margin: 0 auto;
+    // }
   }
   background: linear-gradient(rgb(0, 0, 0), rgb(45, 57, 69));
   border-bottom: 1px solid rgba(50, 205, 50, 0.575);
   h1 {
     color: #fff;
+    // @media @lg-tablet {
+    //   padding-left: 2rem;
+    // }
   }
 
   .header-flex {
@@ -14,10 +29,18 @@ header {
     justify-content: space-between;
     align-content: center;
     font-size: 1.7rem;
+    @media @tablet {
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 2rem;
+    }
 
     nav {
       display: flex;
       align-items: center;
+      // @media @lg-tablet {
+      //   margin: 3rem;
+      // }
       a {
         padding-right: 30px;
         text-decoration: none;
