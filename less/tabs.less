@@ -10,10 +10,36 @@
   .tabs-item {
     display: none;
     width: 75%;
+
     .tabs-item-title {
       font-size: 24px;
-      font-weight: bold;
+      font-weight: 300;
       padding-bottom: 10px;
+    }
+    .tabs-item-description {
+      h4 {
+        padding-bottom: 1.5rem;
+      }
+
+      .dav-photo {
+        height: 200px;
+      }
+      .nick-photo {
+        height: 200px;
+      }
+      .chris-photo {
+        height: 200px;
+      }
+      .leslie-photo {
+        height: 200px;
+      }
+      .marcus-photo {
+        height: 200px;
+      }
+      p {
+        font-size: 1.5rem;
+        padding-top: 2.5rem;
+      }
     }
   }
   .tabs-item-selected {
@@ -37,6 +63,9 @@
     &:hover {
       background-color: #239a24;
     }
+    @media @mobile {
+      padding: 20px 10px;
+    }
   }
   .tabs-link-selected {
     z-index: 2;
@@ -50,6 +79,12 @@
 }
 
 .container {
+  @media @mobile {
+    //width: 450px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   h2 {
     text-align: center;
     padding-top: 4rem;
@@ -58,5 +93,14 @@
   }
   .section {
     margin-top: 4rem;
+  }
+}
+
+.sub-footer {
+  @media @mobile {
+    display: none;
+  }
+  @media @tablet {
+    display: none;
   }
 }
