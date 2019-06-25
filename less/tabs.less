@@ -1,0 +1,106 @@
+.tabs {
+  width: 100%;
+  .tabs-items {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+  }
+  .tabs-item {
+    display: none;
+    width: 75%;
+
+    .tabs-item-title {
+      font-size: 24px;
+      font-weight: 300;
+      padding-bottom: 10px;
+    }
+    .tabs-item-description {
+      h4 {
+        padding-bottom: 1.5rem;
+      }
+
+      .dav-photo {
+        height: 200px;
+      }
+      .nick-photo {
+        height: 200px;
+      }
+      .chris-photo {
+        height: 200px;
+      }
+      .leslie-photo {
+        height: 200px;
+      }
+      .marcus-photo {
+        height: 200px;
+      }
+      p {
+        font-size: 1.5rem;
+        padding-top: 2.5rem;
+      }
+    }
+  }
+  .tabs-item-selected {
+    display: block;
+  }
+
+  .tabs-links {
+    display: flex;
+    background-color: #363232;
+    font-weight: 100;
+    border-radius: 10px 10px;
+  }
+
+  .tabs-link {
+    padding: 20px 25px;
+    font-size: 24px;
+    background-color: #363232;
+    border-right: 1px solid white;
+    color: white;
+    cursor: pointer;
+    &:hover {
+      background-color: #239a24;
+    }
+    @media @mobile {
+      padding: 20px 10px;
+    }
+  }
+  .tabs-link-selected {
+    z-index: 2;
+    border-right: 1px solid #363232;
+    background-color: white;
+    color: black;
+    &:hover {
+      background-color: white;
+    }
+  }
+}
+
+.container {
+  @media @mobile {
+    //width: 450px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h2 {
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+  }
+  .section {
+    margin-top: 4rem;
+  }
+}
+
+.sub-footer {
+  @media @mobile {
+    display: none;
+  }
+  @media @tablet {
+    display: none;
+  }
+}

@@ -1,0 +1,40 @@
+header {
+  background: linear-gradient(#000000, #2d3945);
+  border-bottom: 1px solid rgba(50, 205, 50, 0.575);
+}
+header .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+header h1 {
+  color: #fff;
+}
+header .header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 1.7rem;
+}
+header .header-flex nav {
+  display: flex;
+  align-items: center;
+}
+header .header-flex nav a {
+  padding-right: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+header .header-flex nav button {
+  background: rgba(50, 205, 50, 0.767);
+  border: none;
+  border-radius: 50%;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+header .header-flex nav button:hover {
+  cursor: pointer;
+}
+header .header-flex nav button i {
+  color: #f7f7f7;
+  font-size: 1.5rem;
+}
