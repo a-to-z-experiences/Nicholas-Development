@@ -1,3 +1,39 @@
 .hero-img {
-  background: url("img/heroImg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img//heroImg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 91.2vh;
+}
+.hero-img .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.hero-img .container .content {
+  height: 91.2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hero-img .container .content p {
+  margin: 0;
+  font-size: 3.5rem;
+  color: #fff;
+  padding-bottom: 2rem;
+  font-weight: 100;
+  line-height: 5rem;
+  letter-spacing: 0.5rem;
+}
+.hero-img .container .content a {
+  background: rgba(50, 205, 50, 0.678);
+  border: none;
+  border-radius: 3rem;
+  padding: 1.3rem 1.9rem;
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 100;
+  text-decoration: none;
+}
+.hero-img .container .content a:hover {
+  cursor: pointer;
 }
