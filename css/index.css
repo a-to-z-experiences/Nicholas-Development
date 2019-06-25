@@ -51,17 +51,17 @@ header .header-flex nav a {
   text-decoration: none;
   color: #fff;
 }
-header .header-flex nav button {
+header .header-flex nav .fas {
   background: rgba(50, 205, 50, 0.767);
   border: none;
   border-radius: 50%;
   padding: 1rem;
   margin-right: 1rem;
 }
-header .header-flex nav button:hover {
+header .header-flex nav .fas:hover {
   cursor: pointer;
 }
-header .header-flex nav button i {
+header .header-flex nav .fas i {
   color: #f7f7f7;
   font-size: 1.5rem;
 }
