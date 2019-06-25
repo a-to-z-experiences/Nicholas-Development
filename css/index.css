@@ -270,3 +270,25 @@ aside p {
 main h1 {
   text-align: center;
 }
+main .card img {
+  height: 300px;
+}
+main .card .card-body {
+  height: 150px;
+}
+main .card .card-body .card-title {
+  font-size: 2rem;
+}
+main .card .card-body .card-text {
+  font-size: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+footer {
+  border-top: 1px solid limegreen;
+}
+.header-flex nav button {
+  font-size: 0.5rem;
+}
+.header-flex nav button .fas {
+  font-size: 1.3rem;
+}
