@@ -11,7 +11,8 @@ header {
   border-bottom: 1px solid rgba(50, 205, 50, 0.575);
 }
 header .container {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 @media (max-width: 800px) {
@@ -24,6 +25,11 @@ header .container {
   header .container {
     max-width: 450px;
     margin: 0 auto;
+  }
+}
+@media (max-width: 1215px) {
+  header .container {
+    width: 80%;
   }
 }
 header h1 {
@@ -78,12 +84,17 @@ header .header-flex nav .fas i {
 }
 @media (max-width: 800px) {
   .hero-img .container {
-    width: 750px;
+    width: 75%;
   }
 }
 @media (max-width: 500px) {
   .hero-img .container {
     width: 450px;
+  }
+}
+@media (max-width: 1215px) {
+  .hero-img .container {
+    width: 90%;
   }
 }
 .hero-img .container .content {
@@ -143,6 +154,11 @@ footer {
   }
 }
 @media (max-width: 900px) {
+  footer {
+    display: none;
+  }
+}
+@media (max-width: 1215px) {
   footer {
     display: none;
   }
