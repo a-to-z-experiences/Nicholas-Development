@@ -264,9 +264,21 @@ aside p {
 .tabs .tabs-item .tabs-item-description .marcus-photo {
   height: 200px;
 }
-.tabs .tabs-item .tabs-item-description p {
-  font-size: 1.5rem;
+.tabs .tabs-item .tabs-item-description li {
+  font-size: 2rem;
   padding-top: 2.5rem;
+  list-style: none;
+}
+.tabs .tabs-item .tabs-item-description li a {
+  text-decoration: none;
+  color: black;
+}
+.tabs .tabs-item .tabs-item-description li .fab {
+  font-size: 3rem;
+  text-align: center;
+}
+.tabs .tabs-item .tabs-item-description li .fab:hover {
+  color: orange;
 }
 .tabs .tabs-item-selected {
   display: block;
@@ -335,7 +347,7 @@ main .card img {
   height: 300px;
 }
 main .card .card-body {
-  height: 150px;
+  height: 200px;
 }
 main .card .card-body .card-title {
   font-size: 2rem;
@@ -352,4 +364,33 @@ footer {
 }
 .header-flex nav button .fas {
   font-size: 1.3rem;
+}
+.fishing {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.795)), url(../img/fishing.png);
+  box-shadow: 1px 1px 20px black;
+  background-size: cover;
+}
+.painting {
+  background-image: url(../img/painting.png);
+  box-shadow: 1px 1px 20px black;
+  background-position: center;
+  background-size: cover;
+}
+.swimming {
+  background-image: url(../img/swimming.png);
+  box-shadow: 1px 1px 20px black;
+  background-size: cover;
+  background-position: center;
+}
+.bowling {
+  background-image: url(../img/bowling.png);
+  box-shadow: 1px 1px 20px black;
+  background-size: cover;
+  background-position: center;
+}
+.knitting {
+  background-image: url(../img/knitting.png);
+  box-shadow: 1px 1px 20px black;
+  background-size: cover;
+  background-position: center;
 }
