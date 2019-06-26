@@ -1,5 +1,5 @@
 main {
-  h1 {
+  h2 {
     text-align: center;
   }
   .card {
@@ -24,6 +24,17 @@ footer {
 }
 
 .header-flex {
+  height: 75px;
+  @media @mobile {
+    height: 150px;
+  }
+  @media @lg-tablet {
+    height: 150px;
+  }
+  h1 {
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
   nav {
     button {
       font-size: 0.5rem;
@@ -37,36 +48,71 @@ footer {
 // Background Images For Experiences
 
 .fishing {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.795)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.438)),
     url(../img/fishing.png);
   box-shadow: 1px 1px 20px black;
   background-size: cover;
 }
 
 .painting {
-  background-image: url(../img/painting.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
+    url(../img/painting.png);
   box-shadow: 1px 1px 20px black;
   background-position: center;
   background-size: cover;
 }
 
 .swimming {
-  background-image: url(../img/swimming.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
+    url(../img/swimming.png);
   box-shadow: 1px 1px 20px black;
   background-size: cover;
   background-position: center;
 }
 
 .bowling {
-  background-image: url(../img/bowling.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
+    url(../img/bowling.png);
   box-shadow: 1px 1px 20px black;
   background-size: cover;
   background-position: center;
 }
 
 .knitting {
-  background-image: url(../img/knitting.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.795)),
+    url(../img/knitting.png);
   box-shadow: 1px 1px 20px black;
   background-size: cover;
   background-position: center;
+}
+
+.showFishing {
+  background-image: url(../img/fishing.png);
+}
+
+.showPainting {
+  background-image: url(../img/painting.png);
+}
+
+.showBowling {
+  background-image: url(../img/bowling.png);
+}
+
+.showSwimming {
+  background-image: url(../img/swimming.png);
+}
+
+.showKnitting {
+  background-image: url(../img/knitting.png);
+}
+
+.card-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.card-text {
+  color: white;
+  font-size: 1.8rem;
 }
