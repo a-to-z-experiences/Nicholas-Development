@@ -227,6 +227,18 @@ aside p {
   font-style: italic;
   padding-top: 2rem;
 }
+.footer-content nav .fa-github {
+  color: orange;
+}
+.footer-content nav .fa-twitter {
+  color: #1da1f2;
+}
+.footer-content nav .fa-facebook {
+  color: #1877f2;
+}
+.footer-content nav .fa-instagram {
+  color: #c32aa3;
+}
 .tabs {
   width: 100%;
 }
